@@ -3,3 +3,5 @@ This is our core plugin. The core powers all of our minigames to work. It handel
 
 We will add more features to this plugin as we need. Fell free to download the source and PLS customize it.
 Website: http://wonderlandpe.hol.es/
+
+Follow @MCPEGamerJP, @WonderlandPE and @DunxTweets on twitter for more detailed updates.
