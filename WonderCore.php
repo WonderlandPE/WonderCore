@@ -3,7 +3,7 @@
 namespace /WonderCore/
 
 use /pocketmine/plugin/PluginBase;
-use .pocketmine/player/player;
+use /pocketmine/player/player;
 
 ?>
 
