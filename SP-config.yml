@@ -1,0 +1,17 @@
+# How long should an arena wait for players?
+wait: 20
+
+# How many players are allowed in an arena
+maxplayers: 8
+
+# Surface material (Block that can be destroyed while in an arena
+surface: 80
+
+# Allow PVP in arenas?
+pvp: false
+
+# Item for destroying (default: Diamond Shovel)
+item: 277
+
+# Display if someone wins a match
+display: true
