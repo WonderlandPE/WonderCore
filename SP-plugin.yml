@@ -1,0 +1,21 @@
+name: SimpleSpleef
+main: SimpleSpleef\Main
+version: 1.0.0
+api: [1.6.0]
+author: SuperChipsLP
+description: A Spleef Plugin for PocketMine-MP
+commands:
+ ss:
+  description: Admin commands for SimpleSpleef
+  permission: simplespleef.arena.admin
+  usage: Visit the documentation for more info
+ spleef:
+  description: Spleef commands for joining/leaving
+  permission: simplespleef.arena.join
+permissions:
+  simplespleef.arena.admin:
+   default: op
+   description: Allows you to create/edit arenas
+  simplespleef.arena.join:
+   default: true
+   description: Allows you to join/leave spleef arenas
