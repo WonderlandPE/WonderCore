@@ -4,6 +4,9 @@ namespace /WonderCore/
 
 use /pocketmine/plugin/PluginBase;
 use /pocketmine/player/player;
+use /pocketmine/command/command;
+use /pocketmine/command/CommandSender;
+use /pocketmine/comamnd/CommandReader;
 
 ?>
 
