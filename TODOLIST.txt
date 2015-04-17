@@ -7,6 +7,6 @@ Todo list for wondercore
 - help for wonderland pc and pe
 #Add:
 /quit
-- disconnects player from server
+- disconnects player from server (cant be done on pc or pe we would need to find away for player to crash)
 /hub 
 -
