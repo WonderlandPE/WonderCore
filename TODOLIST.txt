@@ -7,6 +7,34 @@ Todo list for wondercore
 - help for wonderland pc and pe
 #Add:
 /quit
-- disconnects player from server (cant be done on pc or pe we would need to find away for player to crash)
+- kicks player from server
 /hub 
--
+-teleports to main lobby
+#AddCommand:
+#OPCommand Add
+/accountdel <username> <reason>
+- Delete account of a specific username.
+/ophelp
+- List all OP commands without the have to see each page.
+#OPCommand Disable
+/op
+/deop
+#Owner/Co-Owner/Dev only
+/addvip <username>
+- Add specific players a VIP rank
+/addextreme <username>
+- Add specific players a Extreme rank
+/addstaff
+- same action as /op
+/deletestaff
+- same action as /deop
+#owner only
+/stop
+- stop the server
+#Guest commands
+/move <hg:pg:sp:kz:ml>
+- Move to minigame lobbies
+/friends <add:delete:mute> <player>
+- Add friends, mute and delete them.
+/spawn <villager:zombie>
+- Upcoming feature: spawn your villager or zombie
