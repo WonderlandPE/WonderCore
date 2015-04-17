@@ -11,7 +11,7 @@ use /pocketmine/comamnd/CommandReader;
 ?>
 
 #IP_Auth
-IP Auth can be configured in the 'config' file of SimpleAuth by the PocketMine Team
+IP Auth can be configured in the 'config' file of AuthTools by PEMapModder
 
 #DisableCommands
  /tp
@@ -46,11 +46,17 @@ IP Auth can be configured in the 'config' file of SimpleAuth by the PocketMine T
   perm: ()
   
   ~command_new
-  command: "/account"
-  description: View all accounts registered on the server.
+  command: "/account <password>"
+  description: Players can view their own account settings.
   action: player.accounts
-  perm: (OP)
-  
+  perm: ()
+
+~command_new
+ command: "/accountdel <password>"
+ description: users can delete their own account, kicks player when reset.
+ action: player.accounts.delete
+ perm: ()
+
 ~command_new
   command: "/account del"
   description: Delete an account from the server. Can also be used to reset an account.
@@ -82,7 +88,7 @@ IP Auth can be configured in the 'config' file of SimpleAuth by the PocketMine T
   perm: ()
   
 ~command_new
-  command: "/friends add %player%"
+  command: "/friends add <player>"
   description: Adds a friend to your friend list
   action: plugin.wondercore.friends.add
   perm: ()
@@ -117,5 +123,23 @@ IP Auth can be configured in the 'config' file of SimpleAuth by the PocketMine T
   action: player.rank.del.staff - console.command"deop %player%
   perm: ()
   
-#Friends
- ~Friends acript soon!
+#HungerGamesCommands
+
+~command_new
+ command: "/hgjoin"
+ deacription: Join a HungerGames match
+ action: plugin.wondercore.hgjoin
+ perm: ()
+
+~command_new
+ command: "/hgstats"
+ description: View HungerGames stats
+ action: plugin.wondercore.hgstatsview
+ perm: ()
+
+~command_new
+ command: "/hgban <player>"
+ description: Ban player from playing HG
+ action: plugin.wondercore.hgbanop
+ perm: (OP)
+
