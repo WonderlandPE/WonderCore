@@ -1,6 +1,6 @@
 <?php
 
-namespace /WonderCraft/
+namespace /WonderCore/
 
 use /pocketmine/plugin/PluginBase;
 use .pocketmine/player/player;
