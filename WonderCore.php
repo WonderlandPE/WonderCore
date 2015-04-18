@@ -143,3 +143,9 @@ IP Auth can be configured in the 'config' file of AuthTools by PEMapModder
  action: plugin.wondercore.hgbanop
  perm: (OP)
 
+~command_new
+ command: "/quithg"
+ description: Quit HungerGames
+ action: player.teleport."spawn"
+
+~
