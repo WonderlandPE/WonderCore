@@ -4,4 +4,5 @@ This is our core plugin. The core powers all of our minigames to work. It handel
 We will add more features to this plugin as we need. Fell free to download the source and PLS customize it.
 Website: http://wonderlandpe.hol.es/
 
-Follow @MCPEGamerJP, @WonderlandPE and @DunxTweets on twitter for more detailed updates.
+Follow @MCPEGamerJP, @WonderlandPE, @tankosamurai and @DunxTweets on twitter for more detailed updates.
+#In The Future, it will use an alternative use of PocketMine, providing no lag servers for everyone to enjoy.
