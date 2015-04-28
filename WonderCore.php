@@ -7,6 +7,14 @@ use /pocketmine/player/player;
 use /pocketmine/command/command;
 use /pocketmine/command/CommandSender;
 use /pocketmine/comamnd/CommandReader;
+use /plugin/wondercore/hungergamescommands;
+use /plugin/wondercore/hungergamescore;
+use /plugin/wondercore/partygamescommands;
+use /plugin/wondercore/partygamescore;
+use /plugin/wondercore/spawn/op;
+use /plugin/wondercore/spawn/guest;
+use /plugin/wondercore/spawn/dev;
+use /plugin/wondercore/spawn/otherranks;
 
 ?>
 
