@@ -1,0 +1,30 @@
+name: PVPPlayer
+author: MamayAdesu
+api: 1.2.0
+version: "1.0"
+main: mamayadesu\pvpplayer\pvpplayer
+
+commands:
+ pvppon:
+  permission: pvpplayer.on
+  description: Turn on PVP for you.
+  usage: /pvp on
+ pvppoff:
+  permission: pvpplayer.off
+  description: Turn off PVP for you.
+  usage: /pvp off
+ pvpp:
+  permission: pvpplayer.check
+  description: Check your PVP status.
+  usage: /pvp status
+
+permissions:
+ pvpplayer.on:
+  default: true
+  description: Allows to turn on PVP.
+ pvpplayer.off:
+  default: true
+  description: Allows to turn on PVP.
+ pvpplayer.check:
+  default: true
+  description: Allows to check your PVP status
