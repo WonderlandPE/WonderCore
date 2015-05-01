@@ -1,0 +1,24 @@
+name: GiantShopPE
+author: MamayAdesu
+api: 1.2.0
+version: "1.0"
+main: mamayadesu\gsp\gsp
+depend:
+- PocketMoney
+- ShoppingCartPE
+
+commands:
+ shop:
+  permission: giantshoppe.shop
+  usage: /shop
+ gsp:
+  permission: giantshoppe.admin
+  usage: /gsp
+ 
+permissions:
+ giantshoppe.shop:
+  default: true
+  description: Allows to buy items from shop
+ giantshoppe.admin:
+  default: op
+  description: Allows to use admin commands
